@@ -1,0 +1,49 @@
+{
+ "updated": "2026-10-28",
+ "thisMonth": 0,
+ "saved": 0,
+ "goals": [
+  {
+   "id": "alerts",
+   "kind": "monthly",
+   "target": 2,
+   "symbol": "bell.badge.fill",
+   "title": {
+    "en": "Instant alerts",
+    "es": "Alertas al instante"
+   },
+   "detail": {
+    "en": "Runs Garita's alert server, so your alerts arrive within minutes of CBP posting a new time.",
+    "es": "Mantiene el servidor de alertas de Garita, para que tus alertas lleguen pocos minutos después de que CBP publica un nuevo tiempo."
+   }
+  },
+  {
+   "id": "appstore",
+   "kind": "monthly",
+   "target": 8.25,
+   "symbol": "app.badge.checkmark.fill",
+   "title": {
+    "en": "Keep Garita on the App Store",
+    "es": "Mantener Garita en la App Store"
+   },
+   "detail": {
+    "en": "The $99 yearly App Store membership, about $8.25 a month.",
+    "es": "La membresía anual de la App Store, $99 al año, unos $8.25 al mes."
+   }
+  },
+  {
+   "id": "cameras",
+   "kind": "savings",
+   "target": 3000,
+   "symbol": "video.fill",
+   "title": {
+    "en": "Dream goal: our own line cameras",
+    "es": "Meta soñada: nuestras propias cámaras en la fila"
+   },
+   "detail": {
+    "en": "Live views of the lines in Tijuana, run by Garita. Someday.",
+    "es": "Vistas en vivo de las filas en Tijuana, de Garita. Algún día."
+   }
+  }
+ ]
+}
