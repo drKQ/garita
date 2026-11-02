@@ -20,12 +20,12 @@
 <body>
 <main>
   <h1>Privacy Policy</h1>
-  <p class="muted">Garita · Effective November 1, 2026 · <a href="#es">Español</a></p>
+  <p class="muted">Garita · Effective November 2, 2026 · <a href="#es">Español</a></p>
 
   <p>Garita shows U.S.–Mexico border wait times. It is built to work without knowing who you are. There are no accounts, and Garita never sells your data.</p>
 
   <h2>Your location</h2>
-  <p>If you allow it, Garita uses your location on your phone to show you on the map, work out your drive or walking time to each border line (using Apple Maps), and, when you tap <em>Start Timer</em>, notice when you have crossed so it can measure your real wait. Your location and the path you drive are processed on your phone. Garita does not send them to us or to anyone else.</p>
+  <p>If you allow it, Garita uses your location on your phone to show you on the map, work out your drive or walking time to each border line (using Apple Maps), and, when you tap <em>Start Timer</em>, notice when you have crossed so it can measure your real wait. Your location and the path you drive are processed on your phone. Garita does not send them to us or to anyone else. If you turn on automatic timing, Garita also uses your location in the background near the border, as described below.</p>
 
   <h2>Alerts</h2>
   <p>Wait alerts (“tell me when San Ysidro is under 45 minutes”) and SENTRI interview alerts are kept on your phone. To deliver them within a few minutes, Garita also sends your alert settings to Garita’s alert server, together with a random install ID, your phone’s notification token, and your language. The server checks CBP’s public feeds every few minutes and sends the notification through Apple. It never receives your name, Apple ID, email, or location. When you remove your last alert, the server deletes everything it kept for your phone. If the server can’t be reached, your phone checks CBP’s feeds on its own, while the app is open and in the background as often as iOS allows.</p>
@@ -38,8 +38,16 @@
   <h2>The in-line timer and “people in line”</h2>
   <p>While your in-line timer runs, and only if you are signed in to iCloud, Garita adds one anonymous entry to the same iCloud public database: the crossing, the lane, the time, and how far back from the inspection booths you were when you joined the line (for example, “2.3 km”). That distance is worked out on your phone; no map coordinates, name or contact details are sent. Other Garita users see only totals, such as “3 other Garita users in this line”, and where recent users joined the line, so Garita can show where the line ends. Your entry is removed when you tap I’m Across, stop the timer, or after six hours, and it stops counting after a few hours in any case. The location trail Garita uses to notice when you cross stays on your phone.</p>
 
+  <h2>Automatic timing (optional)</h2>
+  <p>Automatic timing is off unless you turn on <em>Start the timer by itself</em> in Settings and set Garita’s location access to “Always”. When it is on, iOS tells Garita when your phone enters an area of about 4 km (2.5 miles) around the San Ysidro or Otay Mesa port. Garita then checks your location, on your phone, for up to 20 minutes. If you have been moving at line speed along one of the lines for about three minutes, it starts your in-line timer and sends you a notification; from then on it works exactly like the timer described above. If you never reach a line, Garita stops checking until you leave the area and come back. Your location and path stay on your phone. You can turn automatic timing off in Settings at any time, and change location access in iOS Settings.</p>
+
   <h2>Waves, Line Trivia and My Trips</h2>
   <p>On the in-line screen you can wave to your line and play Line Trivia. A wave sends only the crossing, the lane and the time. A trivia answer sends only the crossing, the lane, which ten-minute round it was and whether the answer was right, so the app can show how each lane is doing. Both go to the same iCloud public database without your name or contact details, and they stop showing after a few hours. My Trips (your crossing history and badges) and the crossings and lane you share with Garita on Apple Watch stay on your own devices; Garita does not upload them.</p>
+
+  <h2>“From the Line” posts and photos</h2>
+  <p>You can post a short update about a crossing (up to 140 characters), with an optional photo, and reply to other people’s posts. Posting is optional and needs iCloud. A post sends the crossing, the lane, your words, the photo if you add one, and the time to the same iCloud public database. Posts and replies are public: anyone using Garita can see them. You appear only as a short code such as “User 4F2A”, made from the anonymous identifier Apple attaches to your records; Garita never sees your name, Apple ID, phone number or email. Posts show in the app for three hours, and you can delete your own posts at any time.</p>
+  <p>Garita opens your camera or photo library only when you choose to add a photo. Before a photo leaves your phone, Garita makes it smaller, blurs the faces it can detect, and removes the hidden details stored in the photo file, such as where and when it was taken and the phone model.</p>
+  <p>To keep posts safe, Garita checks your words before posting and refuses insults, links, phone numbers and emails. If you report a post, Garita saves the report (which post, and your anonymous identifier) in the same database; a post reported by three people is hidden for everyone. Your blocks and reports are also remembered on your phone. We review reported posts in Apple’s iCloud dashboard, can delete any post, and remove people who break the rules within 24 hours by adding their anonymous identifier to a public list at <a href="blocked.json">drkq.github.io/garita/blocked.json</a>, which the app reads to hide their posts. The list contains only those identifiers.</p>
   <h2>Advertising</h2>
   <p>Garita shows no ads and contains no advertising or analytics code. If that ever changes, this policy will say so first.</p>
 
@@ -59,12 +67,12 @@
 
   <section id="es" lang="es">
     <h1>Política de privacidad</h1>
-    <p class="muted">Garita · Vigente desde el 1 de noviembre de 2026</p>
+    <p class="muted">Garita · Vigente desde el 2 de noviembre de 2026</p>
 
     <p>Garita muestra los tiempos de espera en la frontera entre EE. UU. y México. Está hecha para funcionar sin saber quién eres. No hay cuentas y Garita nunca vende tus datos.</p>
 
     <h2>Tu ubicación</h2>
-    <p>Si lo permites, Garita usa tu ubicación en tu teléfono para mostrarte en el mapa, calcular tu tiempo de manejo o caminando a cada fila (con Apple Maps) y, cuando tocas <em>Iniciar cronómetro</em>, detectar cuándo cruzaste para medir tu espera real. Tu ubicación y tu recorrido se procesan en tu teléfono. Garita no los envía a nosotros ni a nadie más.</p>
+    <p>Si lo permites, Garita usa tu ubicación en tu teléfono para mostrarte en el mapa, calcular tu tiempo de manejo o caminando a cada fila (con Apple Maps) y, cuando tocas <em>Iniciar cronómetro</em>, detectar cuándo cruzaste para medir tu espera real. Tu ubicación y tu recorrido se procesan en tu teléfono. Garita no los envía a nosotros ni a nadie más. Si activas el cronómetro automático, Garita también usa tu ubicación en segundo plano cerca de la frontera, como se explica abajo.</p>
 
     <h2>Alertas</h2>
     <p>Las alertas de espera (“avísame cuando San Ysidro esté en menos de 45 minutos”) y las alertas de citas de SENTRI se guardan en tu teléfono. Para avisarte en pocos minutos, Garita también envía la configuración de tus alertas al servidor de alertas de Garita, junto con un identificador de instalación al azar, el token de notificaciones de tu teléfono y tu idioma. El servidor revisa los datos públicos de CBP cada pocos minutos y envía la notificación a través de Apple. Nunca recibe tu nombre, tu Apple ID, tu correo ni tu ubicación. Cuando borras tu última alerta, el servidor borra todo lo que guardaba de tu teléfono. Si no se puede conectar con el servidor, tu teléfono revisa los datos de CBP por su cuenta, mientras la app está abierta y en segundo plano tan seguido como iOS lo permite.</p>
@@ -77,8 +85,16 @@
     <h2>El cronómetro de la fila y “personas en la fila”</h2>
     <p>Mientras corre tu cronómetro, y solo si iniciaste sesión en iCloud, Garita agrega una entrada anónima a la misma base de datos pública de iCloud: la garita, el carril, la hora y qué tan atrás de las casetas de revisión estabas cuando te formaste en la fila (por ejemplo, “2.3 km”). Esa distancia se calcula en tu teléfono; no se envían coordenadas del mapa, nombre ni datos de contacto. Otros usuarios de Garita solo ven totales, como “3 personas más con Garita en esta fila”, y dónde se formaron los usuarios recientes, para que Garita muestre dónde termina la fila. Tu entrada se borra cuando tocas Ya crucé, detienes el cronómetro o a las seis horas, y de todos modos deja de contar después de unas horas. El recorrido de ubicación que Garita usa para darse cuenta de que cruzaste se queda en tu teléfono.</p>
 
+    <h2>Cronómetro automático (opcional)</h2>
+    <p>El cronómetro automático está apagado a menos que actives <em>Iniciar el cronómetro automáticamente</em> en Configuración y pongas el acceso a la ubicación de Garita en “Siempre”. Cuando está activado, iOS le avisa a Garita cuando tu teléfono entra a una zona de unos 4 km alrededor de la garita de San Ysidro o de Otay Mesa. Entonces Garita revisa tu ubicación, en tu teléfono, durante un máximo de 20 minutos. Si llevas unos tres minutos avanzando a paso de fila por una de las filas, inicia tu cronómetro y te manda una notificación; de ahí en adelante funciona igual que el cronómetro descrito arriba. Si nunca llegas a una fila, Garita deja de revisar hasta que salgas de la zona y vuelvas. Tu ubicación y tu recorrido se quedan en tu teléfono. Puedes apagar el cronómetro automático en Configuración cuando quieras y cambiar el acceso a la ubicación en la Configuración de iOS.</p>
+
     <h2>Saludos, Trivia de la fila y Mis cruces</h2>
     <p>En la pantalla de la fila puedes saludar a tu fila y jugar Trivia de la fila. Un saludo envía solo la garita, el carril y la hora. Una respuesta de trivia envía solo la garita, el carril, la ronda de diez minutos y si acertaste, para mostrar cómo va cada carril. Las dos van a la misma base de datos pública de iCloud sin tu nombre ni datos de contacto, y dejan de mostrarse después de unas horas. Mis cruces (tu historial y tus insignias) y las garitas y el carril que compartes con Garita en el Apple Watch se quedan en tus dispositivos; Garita no los sube.</p>
+
+    <h2>Publicaciones y fotos en “Desde la fila”</h2>
+    <p>Puedes publicar un aviso corto sobre una garita (hasta 140 caracteres), con una foto si quieres, y responder a las publicaciones de otras personas. Publicar es opcional y requiere iCloud. Una publicación envía la garita, el carril, tus palabras, la foto si agregas una y la hora a la misma base de datos pública de iCloud. Las publicaciones y respuestas son públicas: cualquier persona que use Garita puede verlas. Apareces solo como un código corto, como “Usuario 4F2A”, hecho a partir del identificador anónimo que Apple asigna a tus registros; Garita nunca ve tu nombre, Apple ID, teléfono ni correo. Las publicaciones se muestran en la app por tres horas y puedes borrar las tuyas cuando quieras.</p>
+    <p>Garita abre tu cámara o tu fototeca solo cuando decides agregar una foto. Antes de que la foto salga de tu teléfono, Garita la hace más pequeña, difumina las caras que logra detectar y quita los datos ocultos guardados en el archivo, como dónde y cuándo se tomó y el modelo del teléfono.</p>
+    <p>Para que las publicaciones sean seguras, Garita revisa tus palabras antes de publicar y rechaza insultos, enlaces, teléfonos y correos. Si reportas una publicación, Garita guarda el reporte (cuál publicación y tu identificador anónimo) en la misma base de datos; una publicación que reportan tres personas se oculta para todos. Tus bloqueos y reportes también se recuerdan en tu teléfono. Revisamos las publicaciones reportadas en el panel de iCloud de Apple, podemos borrar cualquier publicación y, en menos de 24 horas, sacamos a quien rompa las reglas agregando su identificador anónimo a una lista pública en <a href="blocked.json">drkq.github.io/garita/blocked.json</a>, que la app lee para ocultar sus publicaciones. La lista contiene solo esos identificadores.</p>
     <h2>Publicidad</h2>
     <p>Garita no muestra anuncios y no contiene código de publicidad ni de analítica. Si eso cambia, esta política lo dirá primero.</p>
 
